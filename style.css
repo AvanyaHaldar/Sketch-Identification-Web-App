@@ -1,0 +1,38 @@
+h1{
+    background-color:rgb(144, 224, 235) ;
+    color: rebeccapurple;
+    padding: 15px;
+    width: 70%;
+    border-radius: 30px;
+    font-family: algerian;
+    font-size: 40px;
+}
+
+label{
+font-size: 22px;
+color: blue;
+background-color: chartreuse;
+padding: 10px;
+border-radius: 20px;
+
+}
+
+#show_sketch{
+    float:right;
+    padding: 12px;
+    font-size: 16px;
+    font-family: comic sans ms;
+}
+
+canvas{
+    margin-top: 140px;
+    border-radius: 20px;
+    border: 8px ridge rgb(231, 145, 174);
+    animation-name:canvas;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes canvas{
+    from{box-shadow: 5px 5px 35px rgb(128, 0, 255);}
+    to{box-shadow: 5px 5px 35px whitesmoke;}
+}
